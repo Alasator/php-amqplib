@@ -401,6 +401,7 @@ class StreamIO extends AbstractIO
         if (!defined('SOL_SOCKET') || !defined('SO_KEEPALIVE')) {
             throw new AMQPIOException('Can not enable keepalive: SOL_SOCKET or SO_KEEPALIVE is not defined');
         }
+        //test changes
 
         $socket = socket_import_stream($this->sock);
         socket_set_option($socket, SOL_SOCKET, SO_KEEPALIVE, 1);

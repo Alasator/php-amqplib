@@ -13,3 +13,4 @@ phpDocumentor.phar
 
 .phpunit.result.cache
 .phpdoc
+.idea
